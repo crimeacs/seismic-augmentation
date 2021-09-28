@@ -48,6 +48,10 @@
         stroke-width: 2px;
       }
 
+      .cls-3 {
+        color: white;
+      }
+
 }
     </style>
   </defs>
