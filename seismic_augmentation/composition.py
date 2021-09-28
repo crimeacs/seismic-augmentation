@@ -6,10 +6,7 @@ class BaseComposition(object):
         @param transforms: a list of transforms
         @param p: the probability of the transform being applied; default value is 1.0
         """
-        for transform in transforms:
-            assert isinstance(
-                transform, (BaseAugmentation, BaseComposition)
-            ), "Expected instances of type `BaseAugmentation` or `BaseComposition` for variable `transforms`"
+       
         assert 0 <= p <= 1.0, "p must be a value in the range [0, 1]"
 
         self.transforms = transforms
