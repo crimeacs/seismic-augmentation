@@ -43,7 +43,7 @@ init_channel_order - ordering of the channels of your seismic data
 ```
 
 ```python
-AddRandomNoise(snr_level_db = -10)
+AddRandomNoise(snr_level_db=-10)
 '''
 Adds random noise with desired SNR
 
@@ -87,7 +87,7 @@ cutoff_freq - desired cutoff frequency
 ```
 
 ```python
-Taper(max_percentage = 0.5, max_length=10)
+Taper(max_percentage=0.5, max_length=10)
 '''
 Applies a taper with specified parameters
 
