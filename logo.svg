@@ -1,0 +1,57 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450.24 57.54">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        font-size: 24px;
+        font-family: Futura-Medium, Futura;
+        font-weight: 500;
+      }
+
+      .cls-4 {
+        letter-spacing: 0.01em;
+      }
+
+      .cls-5 {
+        letter-spacing: 0em;
+      }
+
+      .cls-6 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-7 {
+        letter-spacing: 0.04em;
+      }
+
+	@media (prefers-color-scheme: dark) {
+.cls-1, .cls-2 {
+        stroke: white;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: white;
+        stroke-width: 2px;
+      }
+
+}
+    </style>
+  </defs>
+  <circle class="cls-1" cx="28.77" cy="28.77" r="28.27"/>
+  <polyline class="cls-2" points="0.5 31.46 14.71 31.46 22.3 14.4 27.98 48.2 34.93 14.4 42.83 31.3 57.05 31.3"/>
+  <text class="cls-3" transform="translate(66.47 36.1)">Seismic Da<tspan class="cls-4" x="118.61" y="0">t</tspan><tspan x="125.38" y="0">a </tspan><tspan class="cls-5" x="147.18" y="0">A</tspan><tspan x="164.93" y="0">ugmen</tspan><tspan class="cls-4" x="237.8" y="0">t</tspan><tspan x="244.57" y="0">ation Lib</tspan><tspan class="cls-6" x="337.5" y="0">r</tspan><tspan x="346.31" y="0">a</tspan><tspan class="cls-7" x="360.7" y="0">r</tspan><tspan x="370.73" y="0">y</tspan></text>
+</svg>
