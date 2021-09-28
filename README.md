@@ -1,4 +1,4 @@
-![Logo](seismic-augmentation/logo.png?raw=true "Logo")
+![Logo](logo.png?raw=true "Logo")
 
 # seismic-augmentation
 Pytorch library for seismic data augmentation
