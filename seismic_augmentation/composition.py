@@ -1,4 +1,5 @@
 import torch
+
 class BaseComposition(object):
     def __init__(self, transforms: list, p: float = 1.0):
         """
