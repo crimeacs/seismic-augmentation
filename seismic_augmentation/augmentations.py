@@ -171,7 +171,7 @@ class Taper(BaseAugmentation):
             taper_sides = torch.hann_window(2 * wlen)
         else:
             taper_sides = torch.hann_window(2 * wlen + 1)
-        taper = torch.tensor(np.hstack((taper_sides[:wlen], np.ones(npts - 2 * wlen),
+        taper = torch.tensor(torch.hstack((taper_sides[:wlen], torch.ones(npts - 2 * wlen),
                                         taper_sides[len(taper_sides) - wlen:])))
 
         data *= taper
