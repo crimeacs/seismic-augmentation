@@ -74,7 +74,7 @@ LowPassFilter(cutoff_freq=9.)
 '''
 Applies Low Pass Filter with a desired cutoff frequency
 
-cutoff_freq_range - range of possible cutoff frequencies
+cutoff_freq - desired cutoff frequency
 '''
 ```
 ```python
@@ -82,7 +82,7 @@ HighPassFilter(cutoff_freq=9.)
 '''
 Applies High Pass Filter with a desired cutoff frequency
 
-cutoff_freq_range - range of possible cutoff frequencies
+cutoff_freq - desired cutoff frequency
 '''
 ```
 
