@@ -36,3 +36,17 @@ FlipChannels(init_channel_order='ZNE')
 ```
 `init_channel_order` - ordering of the channels of your seismic data
 
+```python
+AddRandomNoise(snr_level_db = -10)
+```
+`snr_level_db` - desired signal to noise ratio
+
+```python
+RandomLowPassFilter(cutoff_freq_range=[1,10])
+```
+`cutoff_freq_range` - range of possible cutoff frequencies
+
+`p` - probability that an augmentation would be applied
+
+## Inspiration
+Highly inspired by [Facebook Augly](https://github.com/facebookresearch/AugLy)
