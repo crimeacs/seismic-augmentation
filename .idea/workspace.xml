@@ -10,7 +10,8 @@
       <change afterPath="$PROJECT_DIR$/../thunder-seis/SELECTED_DATA.csv" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../thunder-seis/ThunderSeis.ipynb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../thunder-seis/vs30_slope.tif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/seismic_augmentation/augmentations.py" beforeDir="false" afterPath="$PROJECT_DIR$/seismic_augmentation/augmentations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/seismic_augmentation/composition.py" beforeDir="false" afterPath="$PROJECT_DIR$/seismic_augmentation/composition.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../source-separation" beforeDir="false" afterPath="$PROJECT_DIR$/../source-separation" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../thunder-seis/selected_data.prqt" beforeDir="false" />
     </list>
@@ -40,23 +41,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/seismic_augmentation/composition.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="29" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="29" />
+            <state>
+              <caret column="12" selection-start-column="12" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/seismic_augmentation/augmentations.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
+              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -90,9 +88,9 @@
       <list>
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/setup.py" />
-        <option value="$PROJECT_DIR$/seismic_augmentation/composition.py" />
         <option value="$PROJECT_DIR$/seismic_augmentation/__init__.py" />
         <option value="$PROJECT_DIR$/seismic_augmentation/augmentations.py" />
+        <option value="$PROJECT_DIR$/seismic_augmentation/composition.py" />
       </list>
     </option>
   </component>
@@ -154,12 +152,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1632835120519</updated>
-      <workItem from="1632835282627" duration="859000" />
+      <workItem from="1632835282627" duration="1116000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="859000" />
+    <option name="totallyTimeSpent" value="1116000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
@@ -202,13 +200,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/seismic_augmentation/composition.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/seismic_augmentation/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -229,10 +220,14 @@
     <entry file="file://$PROJECT_DIR$/seismic_augmentation/augmentations.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seismic_augmentation/composition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
