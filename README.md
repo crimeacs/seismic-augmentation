@@ -37,7 +37,7 @@ For now this library is very simple
 FlipChannels(init_channel_order='ZNE')
 '''
 Swaps N and E channels. Easiest way to change azimuth of a signal
-Args:
+
 init_channel_order - ordering of the channels of your seismic data
 '''
 ```
