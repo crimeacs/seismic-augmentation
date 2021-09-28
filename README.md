@@ -35,8 +35,10 @@ For now this library is very simple
 
 ```python
 FlipChannels(init_channel_order='ZNE')
+'''Swaps N and E channels. Easiest way to change azimuth of a signal
+init_channel_order - ordering of the channels of your seismic data
+'''
 ```
-`init_channel_order` - ordering of the channels of your seismic data
 
 ```python
 AddRandomNoise(snr_level_db = -10)
