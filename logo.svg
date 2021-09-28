@@ -1,17 +1,13 @@
 <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450.24 57.54">
   <defs>
     <style>
-      .cls-1 {
-        fill: none;
-      }
-
       .cls-1, .cls-2 {
+        fill: none;
         stroke: #000;
         stroke-miterlimit: 10;
       }
 
       .cls-2 {
-        fill: #fff;
         stroke-width: 2px;
       }
 
@@ -19,6 +15,7 @@
         font-size: 24px;
         font-family: Futura-Medium, Futura;
         font-weight: 500;
+        fill: #000;
       }
 
       .cls-4 {
@@ -36,22 +33,14 @@
       .cls-7 {
         letter-spacing: 0.04em;
       }
-
-	@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: dark) {
 .cls-1, .cls-2 {
-        stroke: white;
-        stroke-miterlimit: 10;
-      }
+stroke: #fff;
+}
 
-      .cls-2 {
-        fill: white;
-        stroke-width: 2px;
-      }
-
-      .cls-3 {
-        color: white;
-      }
-
+.cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+fill: #fff;
+}
 }
     </style>
   </defs>
