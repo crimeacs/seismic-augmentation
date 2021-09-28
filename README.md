@@ -35,20 +35,80 @@ For now this library is very simple
 
 ```python
 FlipChannels(init_channel_order='ZNE')
-'''Swaps N and E channels. Easiest way to change azimuth of a signal
+'''
+Swaps N and E channels. Easiest way to change azimuth of a signal
+Args:
 init_channel_order - ordering of the channels of your seismic data
 '''
 ```
 
 ```python
 AddRandomNoise(snr_level_db = -10)
+'''
+Adds random noise with desired SNR
+
+snr_level_db - desired signal to noise ratio after augmentation
+'''
 ```
-`snr_level_db` - desired signal to noise ratio
 
 ```python
 RandomLowPassFilter(cutoff_freq_range=[1,10])
+'''
+Applies Low Pass Filter with a random cutoff frequency
+
+cutoff_freq_range - range of possible cutoff frequencies
+'''
 ```
-`cutoff_freq_range` - range of possible cutoff frequencies
+
+```python
+RandomHighPassFilter(cutoff_freq_range=[1,10])
+'''
+Applies High Pass Filter with a random cutoff frequency
+
+cutoff_freq_range - range of possible cutoff frequencies
+'''
+```
+
+```python
+LowPassFilter(cutoff_freq=9.)
+'''
+Applies Low Pass Filter with a desired cutoff frequency
+
+cutoff_freq_range - range of possible cutoff frequencies
+'''
+```
+```python
+HighPassFilter(cutoff_freq=9.)
+'''
+Applies High Pass Filter with a desired cutoff frequency
+
+cutoff_freq_range - range of possible cutoff frequencies
+'''
+```
+
+```python
+Taper(max_percentage = 0.5, max_length=10)
+'''
+Applies a taper with specified parameters
+
+max_percentage - how strongly the signal is suppresed
+max_length - maximum length of a taper in samples
+'''
+```
+
+```python
+PolarityChange()
+'''
+Flips polarity of the signal
+'''
+```
+
+```python
+Normalize()
+'''
+Global normalization of 3-channel signal
+'''
+```
 
 `p` - probability that an augmentation would be applied
 
