@@ -27,3 +27,10 @@ transformed = aug(data=test_data, sample_rate=30)
 ```
 ## Contribute
 Contributors welcome!
+
+## Documentation
+For now this library is very simple
+
+`FlipChannels(init_channel_order='ZNE')`
+`init_channel_order` - ordering of the channels of your seismic data
+
