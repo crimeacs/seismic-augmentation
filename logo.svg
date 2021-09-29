@@ -3,7 +3,7 @@
     <style>
       .cls-1, .cls-2 {
         fill: none;
-        stroke: #000;
+        stroke: currentColor;
         stroke-miterlimit: 10;
       }
 
@@ -15,16 +15,16 @@
         font-size: 24px;
         font-family: Futura-Medium, Futura;
         font-weight: 500;
-        fill: #000;
+        fill: currentColor;
       }
 
 @media (prefers-color-scheme: dark) {
 .cls-1, .cls-2 {
-stroke: #fff;
+stroke: currentColor;
 }
 
 .cls-3 {
-fill: #fff;
+fill: currentColor;
 }
 }
     </style>
