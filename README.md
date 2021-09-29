@@ -1,5 +1,7 @@
 ![Logo](logo.svg?raw=true "Logo")
 
+<object type="image/svg+xml" data="logo.svg?raw=true"></object>
+
 # seismic-augmentation
 Pytorch library for seismic data augmentation
 
