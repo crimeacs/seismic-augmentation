@@ -52,7 +52,7 @@ class FlipChannels(BaseAugmentation):
     def apply_transform(self,
                         data: torch.tensor,
                         sample_rate: int = 100):
-        assert data.size(0) != 3, "You need 3-component waveform to use this augmentation"
+        assert data.size(0) == 3, "You need 3-component waveform to use this augmentation"
 
         permute = [0, 2, 1]
         return data[:, permute]
