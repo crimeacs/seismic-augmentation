@@ -16,10 +16,10 @@ from seismic_augmentation.augmentations import *
 
 aug = Compose([
          FlipChannels(init_channel_order='ZNE'),
-         AddRandomNoise(snr_level_db = -10),
+         AddRandomNoise(snr_level_db=-10),
          RandomLowPassFilter(cutoff_freq_range=[1,10]),
          RandomHighPassFilter(cutoff_freq_range=[3,14]),
-         Taper(max_percentage = 0.5, max_length=10),
+         Taper(max_percentage=0.5, max_length=10),
          PolarityChange(),
          Normalize()
          ],  
