@@ -57,7 +57,7 @@ class FlipChannels(BaseAugmentation):
         permute = [0, 2, 1]
         permuted = data[permute, :]
 
-        assert permuted.size() == data.size()
+        assert permuted.size() == data.size(), "Size permuted and original tensor must be the same"
         return permuted
 
 
