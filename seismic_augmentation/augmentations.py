@@ -202,4 +202,4 @@ class Normalize(BaseAugmentation):
     def apply_transform(self,
                         data: torch.tensor,
                         sample_rate: int = 100):
-        return data / data.abs().max(dim=-1, keepdim=True).values.max()
+        return data / (data.abs().max(dim=-1, keepdim=True).values.max() + 1e-8)
