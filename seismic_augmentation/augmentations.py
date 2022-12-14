@@ -210,7 +210,7 @@ class RotateWaveforms(BaseAugmentation):
                  angle_range: list = [0, 360],
                  p: float = 1.0):
         super().__init__(p)
-        
+
         self.angle_range = angle_range
 
     def apply_transform(self,
@@ -231,4 +231,4 @@ class RotateWaveforms(BaseAugmentation):
         # Compute the inverse Fourier transform to get the rotated waveform in the time domain
         rotated_waveform = torch.fft.ifft(rotated_fft_waveform)
 
-        return rotated_waveform
+        return rotated_waveform.real
