@@ -110,6 +110,15 @@ Global normalization of 3-channel signal
 '''
 ```
 
+```python
+RotateWaveforms(angle_range=[0, 360])
+'''
+Rotates waveform to a specified angle
+
+angle_range - range of angles in degrees
+'''
+```
+
 `p` - probability that an augmentation would be applied
 
 ## Inspiration

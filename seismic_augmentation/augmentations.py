@@ -203,3 +203,32 @@ class Normalize(BaseAugmentation):
                         data: torch.tensor,
                         sample_rate: int = 100):
         return data / (data.abs().max(dim=-1, keepdim=True).values.max() + 1e-8)
+
+
+class RotateWaveforms(BaseAugmentation):
+    def __init__(self,
+                 angle_range: list = [0, 360],
+                 p: float = 1.0):
+        super().__init__(p)
+        
+        self.angle_range = angle_range
+
+    def apply_transform(self,
+                        data: torch.tensor,
+                        sample_rate: int = 100):
+
+        angle = torch.FloatTensor(1).uniform_(*self.angle_range)
+
+        # Compute the Fourier transform of the waveform
+        fft_waveform = torch.fft.fft(data)
+
+        # Create a complex exponential with the specified rotation angle
+        rotate_factor = torch.exp(1j * angle)
+
+        # Multiply the Fourier transform by the rotation factor
+        rotated_fft_waveform = fft_waveform * rotate_factor
+
+        # Compute the inverse Fourier transform to get the rotated waveform in the time domain
+        rotated_waveform = torch.fft.ifft(rotated_fft_waveform)
+
+        return rotated_waveform
